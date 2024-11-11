@@ -15,7 +15,7 @@
 }
 
 .header-logo .header-title {
-    color: #ffdd57;
+    color: #fff;
     font-size: 2rem;
     font-family: 'Arial', sans-serif;
 }
@@ -36,6 +36,6 @@
 }
 
 .header-menu-item a:hover {
-    color: #ffdd57;
+    color: #fff;
     transform: translateY(-3px);
 }

@@ -4,7 +4,7 @@
     color: #fff;
     padding: 40px 20px;
     font-family: 'Arial', sans-serif;
-    border-top: 4px solid #ffdd57;
+    border-top: 4px solid hwb(231 12% 7%);
 }
 
 .footer-container {
@@ -25,7 +25,7 @@
 
 .footer-title {
     font-size: 1.8rem;
-    color: #ffdd57;
+    color: #fff;
     margin-bottom: 15px;
 }
 
@@ -39,7 +39,7 @@
 .footer-subtitle {
     font-size: 1.5rem;
     margin-bottom: 10px;
-    color: #ffdd57;
+    color: #fff;
 }
 
 .footer-links {
@@ -59,7 +59,7 @@
 }
 
 .footer-links li a:hover {
-    color: #ffdd57;
+    color: #fff;
     transform: translateX(5px);
 }
 
@@ -82,7 +82,7 @@
 }
 
 .social-icon:hover {
-    color: #ffdd57;
+    color: #fff;
     transform: scale(1.2);
 }
 

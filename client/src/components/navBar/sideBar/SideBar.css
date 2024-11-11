@@ -42,7 +42,7 @@
 }
 
 .sidebar-menu-item a:hover {
-    color: #ffdd57;  /* Hover color effect */
+    color: #fff;
 }
 
 .sidebar-icon {
@@ -64,7 +64,7 @@
 }
 
 .sidebar-toggle-btn:hover {
-    color: #ffdd57;  /* Hover effect on toggle button */
+    color: #fff;
 }
 
 /* Responsive Sidebar */

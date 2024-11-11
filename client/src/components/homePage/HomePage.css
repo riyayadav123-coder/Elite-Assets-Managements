@@ -53,7 +53,7 @@
 }
 
 .about h2 {
-    color: #ffdd57;
+    color: #1f52e0;
     margin-bottom: 20px;
 }
 
@@ -71,20 +71,20 @@
 }
 
 .plans h2 {
-    color: #ffdd57;
+    color: black;
     margin-bottom: 30px;
 }
 
 .plan-list {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    gap: 30px;
     flex-wrap: wrap;
 }
 
 .plan-item {
     background-color: #fff;
-    padding: 20px;
+    padding: 10px;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     width: 30%;
@@ -92,7 +92,7 @@
 }
 
 .plan-item h3 {
-    color: #ffdd57;
+    color: #1f52e0;
     margin-bottom: 10px;
 }
 
@@ -109,7 +109,7 @@
 }
 
 .policy h2 {
-    color: #ffdd57;
+    color: #1f52e0;
     margin-bottom: 20px;
 }
 
@@ -121,14 +121,13 @@
 
 /* Contact Us Section */
 .contact {
-    background-color: #333;
-    color: #fff;
+    background-color: #f0f0f0;
     padding: 40px 20px;
     text-align: center;
 }
 
 .contact h2 {
-    color: #ffdd57;
+    color: #1f52e0;
     margin-bottom: 20px;
 }
 
@@ -139,5 +138,5 @@
 }
 
 .contact strong {
-    color: #ffdd57;
+    color: black;
 }
