@@ -55,6 +55,16 @@ const HomePage = () => {
                         <p><strong>Minimum Investment:</strong> $10,000</p>
                     </div>
                     <div className="plan-item">
+                        <h3>Growth Plan</h3>
+                        <p>Designed for growing portfolios. Includes advanced asset management and growth strategies.</p>
+                        <p><strong>Minimum Investment:</strong> $10,000</p>
+                    </div>
+                    <div className="plan-item">
+                        <h3>Growth Plan</h3>
+                        <p>Designed for growing portfolios. Includes advanced asset management and growth strategies.</p>
+                        <p><strong>Minimum Investment:</strong> $10,000</p>
+                    </div>
+                    <div className="plan-item">
                         <h3>Elite Plan</h3>
                         <p>Exclusive access to top-tier investment opportunities and personalized consulting services.</p>
                         <p><strong>Minimum Investment:</strong> $100,000</p>

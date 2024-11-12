@@ -31,11 +31,11 @@ const Header = () => {
                             onMouseEnter={handleMouseEnter}
                             onMouseLeave={handleMouseLeave}
                         >
-                            <span className="dropdown-toggle">User</span>
+                            <span className="dropdown-toggle">Login/Signup</span>
                             {showDropdown && (
                                 <div className="dropdown-menu">
                                     <Link to="/login" className="dropdown-link">Login</Link>
-                                    <Link to="/signup" className="dropdown-link">Sign Up</Link>
+                                    <Link to="/signup" className="dropdown-link">Signup</Link>
                                 </div>
                             )}
                         </li>
