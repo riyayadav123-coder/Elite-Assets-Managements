@@ -1,8 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import './Header.css';
 
 const Header = () => {
+    const [showDropdown, setShowDropdown] = useState(false);
+
+    const handleMouseEnter = () => {
+        setShowDropdown(true);
+    };
+
+    const handleMouseLeave = () => {
+        setShowDropdown(false);
+    };
+
     return (
         <header className="header">
             <div className="header-container">
@@ -16,6 +26,19 @@ const Header = () => {
                         <li className="header-menu-item"><Link to="/contact">Contact</Link></li>
                         <li className="header-menu-item"><Link to="/plans">Plans</Link></li>
                         <li className="header-menu-item"><Link to="/policy">Policy</Link></li>
+                        <li 
+                            className="header-menu-item dropdown"
+                            onMouseEnter={handleMouseEnter}
+                            onMouseLeave={handleMouseLeave}
+                        >
+                            <span className="dropdown-toggle">User</span>
+                            {showDropdown && (
+                                <div className="dropdown-menu">
+                                    <Link to="/login" className="dropdown-link">Login</Link>
+                                    <Link to="/signup" className="dropdown-link">Sign Up</Link>
+                                </div>
+                            )}
+                        </li>
                     </ul>
                 </nav>
             </div>
